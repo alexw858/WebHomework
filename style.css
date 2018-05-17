@@ -1,0 +1,69 @@
+/* box surrounding home button */
+.greenbox {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  background: #45B39D;
+  text-align: center;
+}
+
+/* colors */
+.greenblue {
+  color: #45B39D;
+}
+
+.purple {
+  background: rebeccapurple;
+}
+
+.red {
+  background: indianred;
+}
+
+/* page positioning */
+.page-header {
+  margin-right: 20px;
+}
+
+#Summary {
+  width: 70%;
+}
+
+#fig-links {
+  width:30%;
+  float: right;
+}
+
+#main-description {
+  float: left;
+  width: 70%;
+  display: block;
+  margin-left: 20px;
+}
+
+#figure1 {
+  position: relative;
+}
+
+#lat-v-temp {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+#lat-v-temp-small {
+  width: 200px;
+  height: 200px;
+}
+
+/* #lat-v-temp-small {
+  width: 200px;
+  height: 200px;
+} */
+
+#fig-links {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}

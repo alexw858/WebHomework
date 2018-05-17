@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework</title>
+
+     <!-- Bring in bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+    <!-- Bring in jquery script to use dropdown menu -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- <div class="row"> -->
+            <div class="col-md-2">
+                <div class="greenbox"><a href="#">Latitude</a></div>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                role="button">Plots<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="temp.html">Temperature</a></li>
+                    <li><a href="humidity.html">Humidity</a></li>
+                    <li><a href="#">Page 3</a></li>
+                    <li><a href="#">Page 4</a></li>
+                </ul>
+                <li><a href="#">Comparison</a></li>
+                <li><a href="data.html">Data</a></li>
+                </ul>
+        </div>
+    </nav>
+
+    <hr>
+    <div class="page-header greenblue" id="Summary">
+        <h1>Summary: Latitude vs. X</h1>
+    </div>
+    <section id="main-description">
+        <section id="figure1">
+            <img id="lat-v-temp" src="output_data/Fig1.png" alt="Latitude vs Temp">
+        </section>
+        <p>
+            The purpose of this project was to analyze how weather changes as you get closer 
+            to the equator.  To accomplish this analysis, we first pulled data from the 
+            OpenWeatherMap API to assemble a dataset on over 500 cities.
+        </p>
+        <p>
+            After assembling the dataset, we used Matplotlib to plot various 
+            aspects of the weather vs. latitude.  Factors we looked at included:
+            temperature, cloudiness, wind speed, and humidity.  This site provides 
+            the source data and visualizations created as part of the analysis, as 
+            well as explanations and descriptions of any trends and correlations 
+            witnessed.
+        </p>
+    </section>
+
+    <div class="page-header greenblue">
+        <h1>Visualizations</h1>
+        <section id="fig-links">
+            <a href="temp.html"><img id="lat-v-temp-small" src="output_data/Fig1.png" alt="Latitude vs Temp"></a>
+            <a href="humidity.html"><img id="lat-v-hum" src="output_data/Fig2.png" alt="Latitude vs Humidity"></a>
+            <a href="#"><img id="lat-v-cloud" src="output_data/Fig3.png" alt="Latitude vs Cloudiness"></a>
+            <a href="#"><img id="lat-v-wind" src="output_data/Fig4.png" alt="Latitude vs Wind Speed"></a>
+        </section>
+    </div>
+</body>
+</html>
