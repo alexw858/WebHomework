@@ -22,17 +22,13 @@
 }
 
 /* page positioning */
+
 .page-header {
   margin-right: 20px;
 }
 
 #Summary {
   width: 70%;
-}
-
-#fig-links {
-  width:30%;
-  float: right;
 }
 
 #main-description {
@@ -62,8 +58,10 @@
   height: 200px;
 } */
 
-#fig-links {
+.fig-links {
   position: relative;
   width: 200px;
   height: 200px;
+  float: right;
+  width: 30%;
 }
