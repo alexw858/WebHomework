@@ -33,7 +33,7 @@
 
 #main-description {
   float: left;
-  width: 70%;
+  width: 60%;
   display: block;
   margin-left: 20px;
 }
@@ -53,6 +53,20 @@
   height: 200px;
 }
 
+#lat-v-hum-small {
+  width: 200px;
+  height: 200px;
+}
+
+#lat-v-cloud-small {
+  width: 200px;
+  height: 200px;
+}
+
+#lat-v-wind-small {
+  width: 200px;
+  height: 200px;
+}
 /* #lat-v-temp-small {
   width: 200px;
   height: 200px;
@@ -63,5 +77,5 @@
   width: 200px;
   height: 200px;
   float: right;
-  width: 30%;
+  width: 35%;
 }
